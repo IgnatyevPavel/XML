@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.-->
+<bug_report>
+  <id>3<id>
+    что где когда
+  <summary>Кнопка вернуться на главную страницу на странице публичного договора перекрывает текст</summary>
+  <description>chrome 101.0.4951.67, windows 10 x64</description>
+  <steps>
+    <step_1>Перехордим по ссылке https://ksendzov.com/contract</step_1>
+    <step_2>Нажимаем F12</step_2>
+    <step_3>Ставим разрешение экрана 400 х 570</step_3>
+    <step_4>Скроллим вниз страницы к кнопке вернуться на главную страницу</step_4>
+  </steps>
+  <result>Раздел реквизиты и адрес исполнителя не виден</result>
+  <expected_result>Раздел реквизиты и адрес исполнителя виден</expected_result>
+  <severity>Critical</severity>
+  <priority>High</priority>
+</bug_report>
+
